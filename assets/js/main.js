@@ -7,3 +7,13 @@ let week = 7;
 let year = 365;
 let time;
 
+const id1 = document.getElementById('total')
+const id2 = document.getElementById('income')
+const id3 = document.getElementById('LeapYear')
+
+const btn1 = document.getElementById('totalProduction')
+
+btn1.addEventListener('click', totalProduction)
+btn1.addEventListener('click', incomeOverTime)
+btn1.addEventListener('click', incomeLeapYear)
+
