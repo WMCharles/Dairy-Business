@@ -49,3 +49,15 @@ function incomeOverTime(){
         id2.appendChild(monthDiv)
 }
 
+function incomeLeapYear(){
+    for(const month in leapYear){
+
+        let leapDiv = document.createElement('p')
+
+        leapDiv.innerHTML = `Your income for ${month} is ${leapYear[month]*selling_price*dailyProduction}`
+        id3.appendChild(leapDiv)
+    }
+}
+
+
+
