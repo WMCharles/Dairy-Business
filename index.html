@@ -10,8 +10,21 @@
 <body>
     <h1>Dairy Business Production and Income Report.</h1>
     <hr>
-    <button id="totalProduction">Generate Report</button>
+    
     <div class="container">
+
+        <div class="input">
+            <p><b>Production in:</b></p>
+            <p>Shed A: <input id="first-a"></p>
+            <p>Shed B: <input id="first-b"></p>
+            <p>Shed C: <input id="first-c"></p>
+            <p>Shed D: <input id="first-d"></p>
+        </div>
+
+        <button onclick="report()">Generate Report</button>
+        <hr>
+
+        <div class="report">
         <div id="total">
             <h3>Milk Produced per Shed & Total Amount Produced</h3>
         </div>
