@@ -50,7 +50,6 @@ In case you find a bug, kindly open an issue [here](https://https://github.com/W
 
 ## Author
 
-* Twitter - [Charles](https://twitter.com/WMKCharles)
-* GitHub - [Charles Wafula](https://github.com/WMCharles)
++ [Charles Wafula](https://github.com/WMCharles)
 
 [Back to the top](#dairy-business)
