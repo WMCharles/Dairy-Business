@@ -38,3 +38,14 @@ function totalProduction(){
     id1.appendChild(totalDiv)
 }
 
+function incomeOverTime(){
+
+        let weekDiv = document.createElement('p')
+        weekDiv.innerHTML = `Your weekly income will be ${dailyProduction*week*selling_price}`
+        id2.appendChild(weekDiv)
+
+        let monthDiv = document.createElement('p')
+        monthDiv.innerHTML = `Your yearly income will be ${dailyProduction*year*selling_price}`
+        id2.appendChild(monthDiv)
+}
+
