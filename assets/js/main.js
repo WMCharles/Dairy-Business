@@ -17,3 +17,24 @@ btn1.addEventListener('click', totalProduction)
 btn1.addEventListener('click', incomeOverTime)
 btn1.addEventListener('click', incomeLeapYear)
 
+
+function totalProduction(){
+    for (const property in shedProduction){
+        let shedDiv = document.createElement('p')
+
+        shedDiv.innerHTML = `Your production is shed ${property} ${shedProduction[property]} litres per day`
+
+        id1.appendChild(shedDiv)
+    }
+
+    for (const x in shedProduction){
+        dailyProduction += shedProduction[x];
+    }
+
+    let totalDiv = document.createElement('p')
+
+    totalDiv.innerHTML = `The total production is ${dailyProduction} litres per day`
+
+    id1.appendChild(totalDiv)
+}
+
