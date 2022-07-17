@@ -1,5 +1,9 @@
 # Dairy Business
 
+## Landing Page
+
+![image](https://github.com/WMCharles/Dairy-Business/blob/main/landingpage.png)
+
 ## Table of Content
 
 + [Description](#description)
@@ -27,6 +31,10 @@ Moreover, it also calculates monthly income. The program aims to automate these 
 ## Live Demo
 
 Click [here](https://wmcharles.github.io/Dairy-Business/) to view the web page
+
+## Generated Report
+
+![image](https://github.com/WMCharles/Dairy-Business/blob/main/report.png)
 
 ## Installation
 
