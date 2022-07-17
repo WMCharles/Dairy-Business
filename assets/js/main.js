@@ -20,6 +20,12 @@ function report(){
     shedProduction.D = parseInt(document.getElementById('first-d').value);
 
     function totalProduction(){
+
+        let header = document.createElement('h3')
+        header.textContent = " Milk Produced per Shed & Total Amount Produced"
+
+        id1.appendChild(header)
+
         for (const property in shedProduction){
 
             let shedDiv = document.createElement('p')
@@ -34,7 +40,7 @@ function report(){
         for (const x in shedProduction){
             dailyProduction += shedProduction[x];
         }
-        
+
         let totalDiv = document.createElement('p')
 
         totalDiv.innerHTML = `The total production is ${dailyProduction} litres per day`
@@ -47,6 +53,10 @@ function report(){
     // function to calculate income per week(per year)
     
     function incomeOverTime(){
+        let header2 = document.createElement('h3')
+        header2.textContent = "Weekly & Yearly Earnings"
+
+        id2.appendChild(header2)
 
         let weekDiv = document.createElement('p')
         weekDiv.innerHTML = `Your weekly income will be ${dailyProduction*week*selling_price}`
@@ -63,6 +73,12 @@ function report(){
     // function to calculate income per month in a leap year
     
     function incomeLeapYear(){
+
+        let header3 = document.createElement('h3')
+        header3.textContent = "Earnings Per Month in a Leap Year"
+
+        id3.appendChild(header3)
+
         for(const month in leapYear){
 
             let leapDiv = document.createElement('p')
