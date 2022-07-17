@@ -5,27 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>@DairyBusiness</title>
 </head>
 <body>
-    <h1>Dairy Business Production and Income Report.</h1>
+    <h1>Dairy Business Production & Income Report.</h1>
     <hr>
     
     <div class="container">
 
         <div class="input">
-            <p><b>Production in:</b></p>
+            <p id="p"><b>Production in:</b></p>
             <p>Shed A: <input id="first-a"></p>
             <p>Shed B: <input id="first-b"></p>
             <p>Shed C: <input id="first-c"></p>
             <p>Shed D: <input id="first-d"></p>
         </div>
 
-        <button onclick="report()">Generate Report</button>
+        <button onclick="report()">Generate Report <span id="icon"><i class="fa-solid fa-file-arrow-down"></i></span></button>
         <hr>
 
         <div class="report">
-            <h2>Report</h2>
+            <h2>Report <span id="icon"> <i class="fa-regular fa-file-lines"></i></span></h2>
             <div id="total">
                 
             </div>
